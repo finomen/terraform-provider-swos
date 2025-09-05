@@ -114,7 +114,7 @@ func NewPortConfig() resource.Resource {
 				toModel:   mapEnumConverterToModel(poeModes),
 				fromModel: mapEnumConverterFromModel(poeModes),
 				name:      "poe_out",
-				attribute: schema.BoolAttribute{
+				attribute: schema.StringAttribute{
 					MarkdownDescription: "PoE Out",
 					Optional:            true,
 					Computed:            true,
@@ -130,7 +130,7 @@ func NewPortConfig() resource.Resource {
 				toModel:   intToInt32Value,
 				fromModel: int32ValueToInt,
 				name:      "poe_priority",
-				attribute: schema.BoolAttribute{
+				attribute: schema.Int32Attribute{
 					MarkdownDescription: "PoE priority",
 					Optional:            true,
 					Computed:            true,
