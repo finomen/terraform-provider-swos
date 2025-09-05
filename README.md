@@ -5,7 +5,7 @@
 [![Release](https://github.com/finomen/terraform-provider-swos/actions/workflows/release.yml/badge.svg)](https://github.com/finomen/terraform-provider-swos/actions/workflows/release.yml)
 ---
 
-This is a hobby project to create a Terraform provider for [SwOS](https://help.mikrotik.com/docs/spaces/SWOS/pages/328415/SwOS) switches that are web-managed. It relies on [goquery](https://github.com/finomen/swos-client).
+This is a hobby project to create a Terraform provider for [SwOS](https://help.mikrotik.com/docs/spaces/SWOS/pages/328415/SwOS) switches that are web-managed. It relies on [swos-client](https://github.com/finomen/swos-client).
 
 Check the documentation at:
 
